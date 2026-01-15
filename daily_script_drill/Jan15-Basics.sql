@@ -13,5 +13,27 @@ SELECT *
 FROM dbo.AdventureWorksDWBuildVersion
 
 
+USE master;
+GO
+ALTER DATABASE MyDatabase SET MULTI_USER WITH ROLLBACK IMMEDIATE;
+GO
+
+USE MyDatabase
+
+select *
+from dbo.customers
+
+use salesdb
+
+select *
+from sales.orders
+
+use AdventureWorksDW2025
+select *
+from dbo.DatabaseLog
+
+select *
+from dbo.FactProductInventory
+
 
 
