@@ -11,4 +11,4 @@ SELECT
 first_name,
 country
 FROM customers
-where score!=0
+where score!=0 and country = 'Germany'
