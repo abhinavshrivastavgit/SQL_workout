@@ -32,7 +32,13 @@ SELECT * FROM app_users     -- to compare changes...
 -- WHERE city IN ('London', 'Berlin', 'New York');
 
 
---use of LIKE with WHERE
-SELECT user_id, country 
+-- --use of LIKE with WHERE
+-- SELECT user_id, country 
+-- FROM app_users 
+-- WHERE country LIKE 'U%';
+
+
+--use of OR with WHERE
+SELECT user_id, subscription_plan, price_paid 
 FROM app_users 
-WHERE country LIKE 'U%';
+WHERE subscription_plan = 'Enterprise' OR price_paid = 0;
