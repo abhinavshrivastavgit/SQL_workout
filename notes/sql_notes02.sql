@@ -14,7 +14,13 @@ SELECT * FROM app_users     -- to compare changes...
 -- WHERE last_active > '2026-01-01';
 
 
--- use of AND with WHERE 
-SELECT user_id, country, subscription_plan 
+-- -- use of AND with WHERE 
+-- SELECT user_id, country, subscription_plan 
+-- FROM app_users 
+-- WHERE country = 'India' AND subscription_plan = 'Pro';
+
+
+-- use of BETWEEN with WHERE and AND
+SELECT user_id, signup_date, price_paid 
 FROM app_users 
-WHERE country = 'India' AND subscription_plan = 'Pro';
+WHERE price_paid BETWEEN 400 AND 1000;
