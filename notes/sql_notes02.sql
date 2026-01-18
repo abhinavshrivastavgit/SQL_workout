@@ -26,7 +26,13 @@ SELECT * FROM app_users     -- to compare changes...
 -- WHERE price_paid BETWEEN 400 AND 1000;
 
 
--- use of IN with WHERE
-SELECT user_id, city, subscription_plan 
+-- -- use of IN with WHERE
+-- SELECT user_id, city, subscription_plan 
+-- FROM app_users 
+-- WHERE city IN ('London', 'Berlin', 'New York');
+
+
+--use of LIKE with WHERE
+SELECT user_id, country 
 FROM app_users 
-WHERE city IN ('London', 'Berlin', 'New York');
+WHERE country LIKE 'U%';
