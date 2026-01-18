@@ -20,7 +20,13 @@ SELECT * FROM app_users     -- to compare changes...
 -- WHERE country = 'India' AND subscription_plan = 'Pro';
 
 
--- use of BETWEEN with WHERE and AND
-SELECT user_id, signup_date, price_paid 
+-- -- use of BETWEEN with WHERE and AND
+-- SELECT user_id, signup_date, price_paid 
+-- FROM app_users 
+-- WHERE price_paid BETWEEN 400 AND 1000;
+
+
+-- use of IN with WHERE
+SELECT user_id, city, subscription_plan 
 FROM app_users 
-WHERE price_paid BETWEEN 400 AND 1000;
+WHERE city IN ('London', 'Berlin', 'New York');
