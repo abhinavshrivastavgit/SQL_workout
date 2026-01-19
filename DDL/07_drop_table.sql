@@ -1,6 +1,6 @@
 -- Delete the table persons from the database
 /*
-One thing important is that from 
+DDL (Data Defination)
    =>01_create.sql --> we created a table named as "details"
    =>02_check_table --> we checked our table created in "01_create.sql"
    =>03_alter.sql --> we added a new column called email to the details table
