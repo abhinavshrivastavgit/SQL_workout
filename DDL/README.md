@@ -10,9 +10,6 @@
 
 ---
 
-![Status: Standalone Module](https://img.shields.io/badge/Status-Standalone_Module-blue?style=for-the-badge)
-![Tech: T-SQL](https://img.shields.io/badge/Tech-T--SQL-blueviolet?style=for-the-badge)
-
 # ⚙️ SQL-DDL-Lifecycle-Audit
 
 ### _A Systematic Approach to Schema Manipulation_
