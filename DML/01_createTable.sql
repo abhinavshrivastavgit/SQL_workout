@@ -6,8 +6,8 @@ USE MyDatabase
 CREATE Table details (
   id INT NOT NULL  ,
   country CHAR NOT NULL,
-  full_name VARCHAR NOT NULL,
-  designation VARCHAR ,
+  full_name VARCHAR(100) NOT NULL,
+  designation VARCHAR(100) ,
   score INT
   CONSTRAINT pk_details PRIMARY KEY (id)
 );
