@@ -1,0 +1,25 @@
+we do have an option to option to add our data in pre- existing tables in the existed dataset.
+but I am going to create new table in the database "My_Database"
+so , flow will be:-
+ 1).Create a table in the database let name it as "details" [01_createTable.sql]
+ 2).Now we will verify the table we create in step 1 [00_verify_steps.sql]
+ 3).Inserting data in our table [02_insert_data.sql]
+ 4).Now we will verify the table we create in step 3 [00_verify_steps.sql]
+ 5).task01
+     a.) first we delete the table[00_verify_steps]
+     b.) Now we will compare the column of content from the table "persons"
+         -> SELECT *
+         -> FROM persons
+     c.) Now, our table "details" is empty now what we will just to make a copy of the data from the table "persons" we want in our empty table "details"[task01.sql]
+         USE MyDatabase
+
+         INSERT INTO details (id, country, full_name, designation , score)
+         SELECT 
+             id,
+             country,
+             first_name AS full_name,     --as detail table have column is having full_name column but persons have first_name.
+             NULL,                        -- as person table is not having designation column like details column.
+             score
+         FROM customers
+     d.) Now we will verify our data is it there or not. [00_verify_steps]
+     e.) 
