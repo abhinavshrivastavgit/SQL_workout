@@ -1,0 +1,9 @@
+USE MyDatabase
+
+INSERT INTO details (id , full_name,country,designation,score)
+VALUES
+   (1, 'INDIA' ,'NARENDRA MODI','PM of INDIA', 1000),
+   (2, 'USA' ,'DONALD TRUMP','NOBLE PEACE PRIZE WINNER', 950),
+   (3, 'GERMANY' ,'FRIEDRICH MERZ','CHANCELLOR OF GERMANY', 540),
+   (4, 'ITALY' ,'GIORGIA MELONI','PM of ITALY', 680),
+   (5, 'PAKISTAN' ,'SHEHBAZ SHARIFF','PM of PAKISTAN', 250)
