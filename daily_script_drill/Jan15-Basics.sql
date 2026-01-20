@@ -1,4 +1,10 @@
 --retrieve all customers data
+--in this we are working on basic terms like select, from and use
+USE MyDatabase
+
+select *
+from dbo.customers
+
 USE SalesDB
 
 
@@ -12,12 +18,12 @@ SELECT *
 -- FROM dbo.Databaselog
 FROM dbo.AdventureWorksDWBuildVersion
 
-
+/*
 USE master;
 GO
 ALTER DATABASE MyDatabase SET MULTI_USER WITH ROLLBACK IMMEDIATE;
 GO
-
+*/
 USE MyDatabase
 
 select *

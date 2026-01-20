@@ -7,4 +7,4 @@ SUM(score) AS Total_score,
 COUNT(id) AS Total_customers
 FROM customers
 GROUP BY country
-ORDER BY country DESC
+ORDER BY Total_score DESC

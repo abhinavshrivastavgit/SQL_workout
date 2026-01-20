@@ -9,7 +9,7 @@ SELECT               --here we are more specific what we are choosing/selecting 
 FROM customers       -- this the table from database
  
 
--- now we sorted the table 
+-- now we filtered the table 
 SELECT
    first_name,
    country,

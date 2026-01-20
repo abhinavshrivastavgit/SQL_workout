@@ -9,7 +9,7 @@ SELECT
 country,
 score
 FROM customers
-where score > 450
+where score > 450              -- "WHERE" is used before aggregation
 GROUP BY country, score
 ORDER BY score ASC
 
@@ -19,7 +19,7 @@ country,
 SUM(score) AS Total_score
 FROM customers
 GROUP BY country
-HAVING SUM(score) > 800
+HAVING SUM(score) > 800        -- "HAVING" is used after the aggregation 
 ORDER BY Total_score ASC
 
 
@@ -28,8 +28,11 @@ SELECT
 country,
 SUM(score) AS Total_score
 FROM customers
-WHERE score > 450
+WHERE score > 450              -- "WHERE" is used before aggregation
 GROUP BY country
-HAVING SUM(score) > 700
-ORDER BY Total_score ASC
+HAVING SUM(score) > 700        -- "HAVING" is used after the aggregation
+ORDER BY Total_score DESC
 
+-- #NOTE:- aggregation is "GROUP BY"
+-- #NOTE:- "WHERE" is used before aggregation and  "HAVING" is used after the aggregation.
+-- filtering the data before aggregation is "WHERE" and filtering the data after aggregation is "HAVING"

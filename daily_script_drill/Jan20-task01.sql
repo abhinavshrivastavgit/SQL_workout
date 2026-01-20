@@ -11,3 +11,4 @@ One thing important is that from
 USE MyDatabase
 
 DROP TABLE persons
+ 

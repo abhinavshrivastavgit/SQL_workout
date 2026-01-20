@@ -7,7 +7,6 @@ SELECT *
 FROM customers
 
 -- selecting top 3 scorers
-SELECT TOP 3 
-score,
-first_name
+SELECT TOP 3*
 FROM customers
+ORDER BY score DESC

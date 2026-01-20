@@ -2,7 +2,7 @@
 
 USE MyDatabase
 --sorting based on multiple factor
-SELECT *
+SELECT *             --select everything
 FROM customers       --from table customers
 ORDER BY 
 country ASC,         --first based on country
