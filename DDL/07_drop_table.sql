@@ -1,4 +1,4 @@
--- Delete the table persons from the database
+-- Delete the table details from the database
 /*
 DDL (Data Defination)
    =>01_create.sql --> we created a table named as "details"
