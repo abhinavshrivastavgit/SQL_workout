@@ -51,4 +51,9 @@ The project is organized into sequential migrations. Each action is followed by 
 
 ---
 
+<img src = "https://github.com/abhinavshrivastavgit/SQL_workout/blob/main/DDL/SQL_DDL_Lifecycle_Audit.png" alt = "SQL-DDL-Lifecycle-Audit" />
+
+
+---
+
 _Standalone Technical Module | 2026 Audit_
