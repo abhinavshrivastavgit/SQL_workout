@@ -1,0 +1,57 @@
+sql_notes02
+
+In this note i will be sharing all note02 codes
+along eith the concept
+
+*Filtering & Logic*
+
+The Concept (The Highlighter)
+Command: WHERE Condition;
+
+    Analogy: WHERE is the Highlighter. It allows you to ignore the noise and focus only on the specific rows (sentences) that matter
+   Query:
+       SELECT user_id, country, price_paid
+       FROM app_users
+       WHERE last_active > '2026-01-01';
+
+
+1. AND (The "Strict" Filter)
+    Purpose: Narrow down results by requiring all conditions to be met.
+
+    Query:
+      SELECT user_id, country, subscription_plan 
+      FROM app_users 
+      WHERE country = 'India' AND subscription_plan = 'Pro';
+
+2. BETWEEN (The "Range" Filter)
+    Purpose: Select data within a specific numerical or date range.
+
+    Query: 
+      SELECT user_id, signup_date, price_paid 
+      FROM app_users 
+      WHERE price_paid BETWEEN 400 AND 1000;  
+
+3. IN (The "List" Filter)
+    Purpose: Check if a value matches any entry in a predefined list.
+
+    Query:
+      SELECT user_id, city, subscription_plan 
+      FROM app_users 
+      WHERE city IN ('London', 'Berlin', 'New York'); 
+
+4. LIKE (The "Pattern" Filter)
+    Purpose: Search for specific strings using wildcards (%).
+
+    Query:
+      SELECT user_id, country, subscription_plan 
+      FROM app_users 
+      WHERE country = 'India' AND subscription_plan = 'Pro';  
+
+5. OR (The "Inclusive" Filter)
+    Purpose: Expand results by allowing any one of multiple conditions to be true.
+
+    Query:
+      SELECT user_id, subscription_plan, price_paid 
+      FROM app_users 
+      WHERE subscription_plan = 'Enterprise' OR price_paid = 0;
+

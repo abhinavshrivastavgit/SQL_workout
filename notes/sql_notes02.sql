@@ -38,7 +38,7 @@ SELECT * FROM app_users     -- to compare changes...
 -- WHERE country LIKE 'U%';
 
 
---use of OR with WHERE
-SELECT user_id, subscription_plan, price_paid 
-FROM app_users 
-WHERE subscription_plan = 'Enterprise' OR price_paid = 0;
+-- --use of OR with WHERE
+-- SELECT user_id, subscription_plan, price_paid 
+-- FROM app_users 
+-- WHERE subscription_plan = 'Enterprise' OR price_paid = 0;
