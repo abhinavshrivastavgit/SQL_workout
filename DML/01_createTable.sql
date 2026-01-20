@@ -2,7 +2,7 @@
 USE MyDatabase
 
 
--- creatinfg table "deatails" contains information like id, first_name, country and score.
+-- creating table "details" contains information like id, first_name, country and score.
 CREATE Table details (
   id INT NOT NULL  ,
   country VARCHAR(500) NOT NULL,
