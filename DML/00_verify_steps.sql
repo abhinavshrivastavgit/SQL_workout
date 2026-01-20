@@ -6,8 +6,8 @@ remove comment to run either of the programs
 */
 
 -- using this command to verify the changes we made in the coming files
-SELECT *
-FROM details
+-- SELECT *
+-- FROM details
 
 
 -- USING THIS COMMAND TO DELETE THE TABLE
