@@ -7,6 +7,7 @@ CREATE Table details (
   id INT NOT NULL  ,
   first_name VARCHAR NOT NULL,
   country CHAR NOT NULL,
+  designation VARCHAR ,
   score INT
   CONSTRAINT pk_details PRIMARY KEY (id)
 );
