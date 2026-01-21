@@ -2,4 +2,4 @@
 
 SELECT *
 FROM customers
-WHERE country != 'Germany' 
+WHERE country != 'Germany'
