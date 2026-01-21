@@ -1,0 +1,16 @@
+update syntax
+
+UPDATE table_name
+ SET column1 = value1,
+     column2 = value2
+WHERE <condition>
+
+NOTE:- Always use WHERE to aviod UPDATING all rows unintentionally
+
+Warning:- without a where all rows will be updated !
+ex:
+UPDATE world_leaders
+ SET score =0 
+ 
+ --> the thing will happwn that scores of all will be zero
+ 
