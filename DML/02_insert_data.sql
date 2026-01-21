@@ -1,6 +1,6 @@
 USE MyDatabase;
 
-INSERT INTO details (id, country, full_name, designation, score)
+INSERT INTO dbo.world_leaders (id, country, full_name, designation, score)
 VALUES
    (1, 'INDIA', 'NARENDRA MODI', 'PM of INDIA', 1000),
    (2, 'USA', 'DONALD TRUMP', 'NOBLE PEACE PRIZE WINNER', 950),

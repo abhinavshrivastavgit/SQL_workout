@@ -1,0 +1,5 @@
+USE MyDatabase
+
+
+-- USING THIS COMMAND TO DELETE THE TABLE
+DROP TABLE world_leaders
