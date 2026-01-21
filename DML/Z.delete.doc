@@ -4,3 +4,5 @@ DELETE FROM table_name
 WHERE <condition>
 
 NOTE:- Always use WHERE to avoid DELETING all rows unintentionally
+
+Warning:- without a where, all rows will be deleted...
