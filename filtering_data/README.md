@@ -50,7 +50,7 @@ Based on my "SQL Decision Makers" series, these are the tools that govern data f
 
 I have documented these concepts in depth across my social platforms. You can find visual carousels, code walkthroughs, and logic breakdowns here:
 
-🔗 **LinkedIn Deep-Dive:** 
+### 🔗 LinkedIn Deep-Dive: 
     - Post_1 :- https://www.linkedin.com/posts/abhinavshrivastav-no1_aiproductmanager-dataanalytics-dataliteracy-activity-7419242297587904512-OenD
     - Post_2 :- https://www.linkedin.com/posts/abhinavshrivastav-no1_aiproductmanager-sqltips-learningsql-activity-7421039116580085760-DHWE
 _Detailed breakdown of "Decision Maker" operators and their business impact._
