@@ -1,0 +1,4 @@
+TRUNCATE syntax
+
+--> Clears the whole table at once without checking or logging 
+--> it is way faster than delete 

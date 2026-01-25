@@ -4,6 +4,6 @@ USE MyDatabase
 
 -- using this command to verify the changes we made in the coming files
 SELECT *
-FROM dbo.world_leaders
+FROM world_leaders
 
 
