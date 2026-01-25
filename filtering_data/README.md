@@ -55,7 +55,7 @@ I have documented these concepts in depth across my social platforms. You can fi
     - Post_2 :- https://www.linkedin.com/posts/abhinavshrivastav-no1_aiproductmanager-sqltips-learningsql-activity-7421039116580085760-DHWE
 _Detailed breakdown of "Decision Maker" operators and their business impact._
 
-📸 **Instagram Carousel:** 
+### 📸 **Instagram Carousel:** 
     - Post_1 :- https://www.instagram.com/p/DTuHHIzkRIB/?img_index=1
     - Post_2 :- https://www.instagram.com/p/DT6XUxpk3XV/?img_index=1
 _Quick-reference guide for filtering logic and "MyDatabase" task execution._
