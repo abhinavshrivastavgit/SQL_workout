@@ -1,6 +1,6 @@
-# ⚙️ SQL-DDL-Lifecycle-Audit
+# ⚙️ SQL-DML-Lifecycle-Audit
 
-### _A Systematic Approach to Schema Manipulation_
+### _Data Manipulation Language (DML) is the functional core of SQL_
 
 **Architect:** **Abhinav Shrivastav**
 
