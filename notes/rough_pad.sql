@@ -1,14 +1,15 @@
 -- this rough pad for capturing screen shots
 
-USE AI_Product_DB
+
 
 --selecting all columns from the table
 --initial table content 
-SELECT * FROM app_users          -- to compare changes...
+-- SELECT * FROM app_users          -- to compare changes...
 
+USE AI_Product_DB
 
---use of IN with WHERE
-SELECT user_id, city, subscription_plan 
+--Use of ">" AND "IN"
+SELECT USER_ID , country, city , price_paid
 FROM app_users 
-WHERE city IN ('London', 'Berlin', 'New York'); -- filtered content according to the condition
+WHERE price_paid > 400 AND city IN ('London', 'Berlin', 'New York'); -- filtered content according to the condition
 
