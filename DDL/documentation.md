@@ -17,6 +17,8 @@
 
 Using the **`MyDatabase`** dataset, I executed a 7-step structural drill to master the DDL lifecycle:
 
+---
+
 ### 1. CREATE (`01_create.sql`)
 
 **Action:** Initializing the `details` table.
@@ -26,7 +28,7 @@ Using the **`MyDatabase`** dataset, I executed a 7-step structural drill to mast
   - `person_name VARCHAR(50)`: Sets a string limit of 50 characters.
   - `CONSTRAINT pk_persons PRIMARY KEY (id)`: Ensures every person has a unique, non-null ID.
 
-#### <ins>**TASK :**</ins> Create a new table called details with columns: id, person_name,birth_date , and phone
+#### <ins>**TASK :**</ins> Create a new table called `details` with columns: `<id>`, `<person_name>`,`<birth_date>` , and `<phone>`
 
 **SQL**
 
@@ -44,3 +46,92 @@ CREATE TABLE details (
 ```
 
 ---
+
+### 2. ALTER — Adding Data (`03_alter.sql`)
+
+**Action:** Evolving the schema to include contact information.
+
+- **Command:** `ALTER TABLE details ADD email VARCHAR(50) NOT NULL`
+- **Logic:** This demonstrates "Structural Evolution"—adding a new feature (Email) without destroying the existing table.
+
+#### <ins>**TASK :**</ins> Add a new column called `<email>` to the `details` table
+
+**SQL**
+
+```sql
+
+-- add a new column called email to the persons table
+
+USE MyDatabase
+ALTER TABLE details                  -- alter means we are making some change in the table.
+ADD email VARCHAR(50) NOT NULL       -- Now we had sucessfully added this.
+```
+
+---
+
+### 3. ALTER — Removing Data (`05_drop_column.sql`)
+
+**Action:** Refining the schema by removing the `phone` column.
+
+- **Command:** `ALTER TABLE details DROP COLUMN phone`
+- **Logic:** Essential for "Schema Cleaning"—removing redundant or non-compliant data structures.
+
+#### <ins>**TASK :**</ins> Remove the column `<phone>` from the `details` table
+
+**SQL**
+
+```sql
+
+-- Remove the column phone from the details table
+
+USE MyDatabase
+ALTER TABLE details            -- alter is use to make some change in the table.
+DROP COLUMN phone
+
+
+```
+
+---
+
+### 4. DROP TABLE (`07_drop_table.sql`)
+
+**Action:** Complete removal of the object.
+
+- **Command:** `DROP TABLE details`
+- **Warning:** Unlike `DELETE` (which clears rows), `DROP` deletes the table itself.
+
+#### <ins>**TASK :**</ins> Delete the table `details` from the `MyDatabase`
+
+**SQL**
+
+```sql
+
+-- Delete the table details from the database
+
+USE MyDatabase
+
+DROP TABLE details
+
+```
+
+---
+
+## 📊 DDL Command Matrix (Summary)
+
+| Command    | Full Form | My Repo Example            | Business Use Case (AI PM)                               |
+| :--------- | :-------- | :------------------------- | :------------------------------------------------------ |
+| **CREATE** | Create    | `CREATE TABLE customers`   | Building a new data repository for a product launch.    |
+| **ALTER**  | Alter     | `ADD email` / `DROP phone` | Updating user profile requirements for new AI features. |
+| **DROP**   | Drop      | `DROP TABLE details`       | Removing legacy structures to save system resources.    |
+
+---
+
+## 💡 Real-World Application
+
+## In **AI Product Management**, DDL is used to build the **Feature Store**. If we need to start tracking 'Customer Sentiment,' we use `ALTER TABLE` to add that column. If a table becomes obsolete (like a temporary 'Test_Orders' table), we use `DROP` to maintain a clean, efficient database architecture.
+
+<img src = "https://github.com/abhinavshrivastavgit/SQL_workout/blob/main/DDL/SQL_DDL_Lifecycle_Audit.png" alt = "SQL-DDL-Lifecycle-Audit" />
+
+---
+
+_Standalone Technical Module | 2026 Audit_
