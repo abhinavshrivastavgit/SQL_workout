@@ -26,7 +26,7 @@ Using the **`MyDatabase`** dataset, I executed a 7-step structural drill to mast
   - `person_name VARCHAR(50)`: Sets a string limit of 50 characters.
   - `CONSTRAINT pk_persons PRIMARY KEY (id)`: Ensures every person has a unique, non-null ID.
 
-#### **TASK:** Create a new table called details with columns: id, person_name,birth_date , and phone
+#### _**TASK :**_ Create a new table called details with columns: id, person_name,birth_date , and phone
 
 **SQL**
 
