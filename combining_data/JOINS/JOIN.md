@@ -12,7 +12,7 @@
 📂 SQL JOINS: THE COMPLETE LOGIC GUIDE
 </h2>
 
-OBJECTIVE:
+<b>OBJECTIVE:</b>
 To master the logic of combining rows from two or more tables based on a
 related column between them.
 
@@ -21,8 +21,6 @@ related column between them.
 <h3 align= "center">
 1. TYPES OF JOINS
 </h3>
-
----
 
 #### A. INNER JOIN
 
