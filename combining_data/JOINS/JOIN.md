@@ -77,7 +77,3 @@ D. FULL (OUTER) JOIN
 - RIGHT JOIN
 
 ===============================================================================
-LEGAL REMINDER:
-"On the next date, can we move an application to close the prosecution's
-evidence if they fail to show up again?" [cite: 2026-01-28]
-===============================================================================
