@@ -11,3 +11,73 @@
 ## SQL JOINS: THE COMPLETE LOGIC GUIDE
 
 ---
+
+OBJECTIVE:
+To master the logic of combining rows from two or more tables based on a
+related column between them.
+
+---
+
+1. TYPES OF JOINS
+
+---
+
+A. INNER JOIN
+
+- Returns records that have matching values in both tables.
+- Syntax:
+  SELECT A.Column, B.Column
+  FROM TableA A
+  INNER JOIN TableB B ON A.Key = B.Key;
+
+B. LEFT (OUTER) JOIN
+
+- Returns all records from the left table, and matched records from the right.
+- Syntax:
+  SELECT A.Column, B.Column
+  FROM TableA A
+  LEFT JOIN TableB B ON A.Key = B.Key;
+
+C. RIGHT (OUTER) JOIN
+
+- Returns all records from the right table, and matched records from the left.
+- Syntax:
+  SELECT A.Column, B.Column
+  FROM TableA A
+  RIGHT JOIN TableB B ON A.Key = B.Key;
+
+D. FULL (OUTER) JOIN
+
+- Returns all records when there is a match in either left or right table.
+- Syntax:
+  SELECT A.Column, B.Column
+  FROM TableA A
+  FULL OUTER JOIN TableB B ON A.Key = B.Key;
+
+---
+
+2. PROJECT ORGANIZATION
+
+---
+
+- PLACEMENT: Major Project (HackerRank_SQL_Approach_Lab). [cite: 2026-01-08]
+- REPO TYPE: Create new folder "SQL_Joins_Reference". [cite: 2026-01-08]
+
+---
+
+3. ALPHABETICAL COMMAND LIST [cite: 2026-01-16]
+
+---
+
+- FULL OUTER JOIN
+- git add .
+- git commit -m
+- INNER JOIN
+- LEFT JOIN
+- RIGHT JOIN
+
+===============================================================================
+LEGAL REMINDER:
+"On the next date, can we move an application to close the prosecution's
+evidence if they fail to show up again?" [cite: 2026-01-28]
+===============================================================================
