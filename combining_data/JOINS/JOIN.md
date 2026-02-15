@@ -12,7 +12,7 @@
 📂 SQL JOINS: THE COMPLETE LOGIC GUIDE
 </h2>
 
-#### OBJECTIVE:
+### OBJECTIVE:
 
 To master the logic of combining rows from two or more tables based on a
 related column between them.
@@ -21,10 +21,14 @@ related column between them.
 <img src = "https://github.com/abhinavshrivastavgit/SQL_workout/blob/main/combining_data/JOINS/image_files/How_join_works.png" alt = "How JOINs actually work." width= "480 px" />
 </p>
 
-#### Why we need actually JOINs:
+### Why we need actually JOINs:
 
-- Recombing Data
-- ***
+- Recombing Data.
+<p align = "center">
+<img src = "https://github.com/abhinavshrivastavgit/SQL_workout/blob/main/combining_data/JOINS/image_files/Recombining_data.png" alt = "Recombining data" width= "120 px" />
+</p>
+- Collecting all Data related to particular key.
+-
 
 <h3 align= "center">
 1. TYPES OF JOINS
