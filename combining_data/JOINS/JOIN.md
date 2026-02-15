@@ -17,8 +17,7 @@
 To master the logic of combining rows from two or more tables based on a
 related column between them.
 
-<img src = "C:\Users\Vaishnavi Shrivastav\Desktop\Data Science Methodology\SQL_training\SQL_workout\Combining_Data\JOINS\image_files\How_join_works.png"
-alt = "How JOINs actually works.>
+<img src = "combining_data/JOINS/image_files/How_join_works.png" alt = "How JOINs actually work." />
 
 #### Why we need actually JOINs:
 
