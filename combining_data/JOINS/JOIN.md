@@ -23,10 +23,11 @@ related column between them.
 
 ### Why we need actually JOINs:
 
-- Recombing Data.
-<p align = "center">
-<img src = "https://github.com/abhinavshrivastavgit/SQL_workout/blob/main/combining_data/JOINS/image_files/Recombining_data.png" alt = "Recombining data" width= "120 px" />
+<p align = "left">
+<img src = "https://github.com/abhinavshrivastavgit/SQL_workout/blob/main/combining_data/JOINS/image_files/Recombining_data.png" alt = "Recombining data" width= "360 px" />
 </p>
+- Recombing Data.
+
 - Collecting all Data related to particular key.
 -
 
