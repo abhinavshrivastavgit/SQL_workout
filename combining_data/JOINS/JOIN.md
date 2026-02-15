@@ -12,9 +12,18 @@
 📂 SQL JOINS: THE COMPLETE LOGIC GUIDE
 </h2>
 
-<b>OBJECTIVE:</b>
+#### OBJECTIVE:
+
 To master the logic of combining rows from two or more tables based on a
 related column between them.
+
+<img src = "C:\Users\Vaishnavi Shrivastav\Desktop\Data Science Methodology\SQL_training\SQL_workout\Combining_Data\JOINS\image_files\How_join_works.png"
+alt = "How JOINs actually works.>
+
+#### Why we need actually JOINs:
+
+- Recombing Data
+-
 
 ---
 
