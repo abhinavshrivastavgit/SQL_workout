@@ -9,7 +9,7 @@
 ---
 
 <h2 align = "center" >
-## 📂 SQL JOINS: THE COMPLETE LOGIC GUIDE
+📂 SQL JOINS: THE COMPLETE LOGIC GUIDE
 </h2>
 
 OBJECTIVE:
@@ -18,11 +18,13 @@ related column between them.
 
 ---
 
+<h3 align= "center">
 1. TYPES OF JOINS
+</h3>
 
 ---
 
-A. INNER JOIN
+#### A. INNER JOIN
 
 - Returns records that have matching values in both tables.
 - Syntax:
@@ -30,7 +32,7 @@ A. INNER JOIN
   FROM TableA A
   INNER JOIN TableB B ON A.Key = B.Key;
 
-B. LEFT (OUTER) JOIN
+#### B. LEFT (OUTER) JOIN
 
 - Returns all records from the left table, and matched records from the right.
 - Syntax:
@@ -38,7 +40,7 @@ B. LEFT (OUTER) JOIN
   FROM TableA A
   LEFT JOIN TableB B ON A.Key = B.Key;
 
-C. RIGHT (OUTER) JOIN
+#### C. RIGHT (OUTER) JOIN
 
 - Returns all records from the right table, and matched records from the left.
 - Syntax:
@@ -46,7 +48,7 @@ C. RIGHT (OUTER) JOIN
   FROM TableA A
   RIGHT JOIN TableB B ON A.Key = B.Key;
 
-D. FULL (OUTER) JOIN
+#### D. FULL (OUTER) JOIN
 
 - Returns all records when there is a match in either left or right table.
 - Syntax:
@@ -56,24 +58,14 @@ D. FULL (OUTER) JOIN
 
 ---
 
+<h3 align= "center">
+2. PROJECT ORGANIZATION
+</h3>
 2. PROJECT ORGANIZATION
 
 ---
 
 - PLACEMENT: Major Project (HackerRank_SQL_Approach_Lab). [cite: 2026-01-08]
 - REPO TYPE: Create new folder "SQL_Joins_Reference". [cite: 2026-01-08]
-
----
-
-3. ALPHABETICAL COMMAND LIST [cite: 2026-01-16]
-
----
-
-- FULL OUTER JOIN
-- git add .
-- git commit -m
-- INNER JOIN
-- LEFT JOIN
-- RIGHT JOIN
 
 ---
