@@ -12,14 +12,14 @@
 📂 SQL JOINS: THE COMPLETE LOGIC GUIDE
 </h2>
 
-<p align= "center">
-
 #### OBJECTIVE:
 
 To master the logic of combining rows from two or more tables based on a
 related column between them.
 
+<p align = "center">
 <img src = "https://github.com/abhinavshrivastavgit/SQL_workout/blob/main/combining_data/JOINS/image_files/How_join_works.png" alt = "How JOINs actually work." width= "480 px" />
+</p>
 
 #### Why we need actually JOINs:
 
@@ -75,5 +75,3 @@ related column between them.
 - REPO TYPE: Create new folder "SQL_Joins_Reference". [cite: 2026-01-08]
 
 ---
-
-</p>
