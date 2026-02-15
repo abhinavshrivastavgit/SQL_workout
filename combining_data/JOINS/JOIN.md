@@ -7,3 +7,7 @@
 </p>
 
 ---
+
+## SQL JOINS: THE COMPLETE LOGIC GUIDE
+
+---
