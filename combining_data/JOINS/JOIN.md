@@ -8,9 +8,9 @@
 
 ---
 
-## SQL JOINS: THE COMPLETE LOGIC GUIDE
-
----
+<h2 align = "center" >
+## 📂 SQL JOINS: THE COMPLETE LOGIC GUIDE
+</h2>
 
 OBJECTIVE:
 To master the logic of combining rows from two or more tables based on a
@@ -76,4 +76,4 @@ D. FULL (OUTER) JOIN
 - LEFT JOIN
 - RIGHT JOIN
 
-===============================================================================
+---
