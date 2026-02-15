@@ -23,9 +23,7 @@ alt = "How JOINs actually works.>
 #### Why we need actually JOINs:
 
 - Recombing Data
--
-
----
+- ***
 
 <h3 align= "center">
 1. TYPES OF JOINS
