@@ -20,6 +20,8 @@ related column between them.
 
 <h3 align= "center">
 1. TYPES OF JOINS
+---
+
 </h3>
 
 #### A. INNER JOIN
